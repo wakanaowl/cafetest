@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+autopep8 = "==1.6.0"
+click = "==8.0.4"
+distlib = "==0.3.4"
+filelock = "==3.6.0"
+gunicorn = "==20.1.0"
+itsdangerous = "==2.1.0"
+platformdirs = "==2.5.1"
+pycodestyle = "==2.8.0"
+pyodbc = "==4.0.32"
+six = "==1.16.0"
+toml = "==0.10.2"
+virtualenv = "==20.13.2"
+Flask = "==2.0.3"
+Jinja2 = "==3.0.3"
+MarkupSafe = "==2.1.0"
+Werkzeug = "==2.0.3"
+
+[dev-packages]
