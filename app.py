@@ -17,7 +17,6 @@ def json():
 @app.route('/test',methods=['POST'])
 def test_one():
     if request.method == 'POST':
-        print(request.json)
         test02.test_json(request.json["users"])
     return "suc"
 
